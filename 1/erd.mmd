@@ -1,0 +1,13 @@
+erDiagram
+    load_unload {
+        INT id PK
+        DATE date
+        INT ship_id
+        FLOAT duration_hour
+    }
+    crane_capacity {
+        INT id PK
+        DATE date
+        INT crane_id
+        FLOAT efficiency_hour_per_weight
+    }
